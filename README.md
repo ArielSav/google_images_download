@@ -1,4 +1,4 @@
-# google_images_download
+# google_images_downloader
 Basic script that downloads the 10 first goolge images according to your search input
 
 # Install:
