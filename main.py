@@ -43,9 +43,9 @@ def open_file_explorer(dir_path):
 def main():
     if not os.path.isfile('path.json'):
         create_main_folder_path(
-            "Enter path for the main folder which you wish to store the images in: ")
+            input("Enter path for the main folder in which you wish to store the images in: "))
     path = get_path()
-    google_search = input("Search for image: ")
+    google_search = input("Search for images: ")
     google_images_dir = "{}\\GoogleImages".format(path)
     google_search_dir = google_images_dir + "\\{}".format(google_search)
     if not os.path.isdir(google_images_dir):
